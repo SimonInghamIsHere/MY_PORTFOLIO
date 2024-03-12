@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+    <link rel="icon" href="computer-chip_7065547.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Simon Ingham - Full Stack Developer</title>
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A7A1D9;
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #7D75BD;
+  font-size: 80px;
+  margin-top: 40px;
+}
+
+.colored-bottom-line {
+    height: 120px; /* Adjust the height as needed */
+    background-color: #584F9F; /* Choose your preferred color */
+}
+#myId {
+    width: 600px; /* Set your desired width */
+    height: 350px; /* Set your desired height */
+    padding: 140px 20px 20px 20px;
+    z-index: 2;
+}
+
+#myName {
+    width: 600px; /* Set your desired width */
+    height: 350px; /* Set your desired height */
+    margin: 40px 20px 20px 0px;
+    z-index: 2;
+    
+}
+
+
+.circle {
+    position: absolute; /* Position it absolutely within the container */
+    width: 330px;
+    height: 340px;
+    border: 14px solid #7D75BD;
+    border-radius: 50%;
+    margin-top: 115px;
+    margin-left: 135px;
+    z-index: 2; /* Set a lower z-index for the circle to be behind the picture */
+}
+
+.my-projects{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: right;
+    z-index: 0;
+    margin-top: 00px;
+    margin-right: 25px;
+}
+        
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+nav {
+    background-color: #7D75BD;
+    display: flex;
+   align-items: center;
+} 
+
+nav img {
+  z-index: 1;
+}
+
+nav a {
+  z-index: 2;
+}
+
+.aboutMe {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(198, 187, 204);
+    width: 1200px;
+      height: 90px;
+      background-color: #F2F0FC;
+      border-radius: 10px; /* Adjust the value to control the curvature */
+      padding: 20px;
+      margin-left: 80px;
+      font-family: "Bungee", sans-serif;
+      padding-bottom: 20px;
+}
+
+.myProjects {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(198, 187, 204);
+    width: 1200px;
+      height: 140px;
+      background-color: #F2F0FC;
+      border-radius: 10px; /* Adjust the value to control the curvature */
+      margin-top: 20px;
+      padding: 20px;
+      margin-left: 80px;
+      font-family: "Bungee", sans-serif;
+      text-decoration: none;
+}
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #7D75BD;
+  font-size: 80px;
+  margin-top: 40px;
+}
+
+.chip {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.gif-container {
+  overflow: hidden;
+  width: 300px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
+
+.gif-container img {
+  width: 100%;
+  height: auto;
+}
+
+#color-changing-div {
+  width: 1423px;
+  height: 600px;
+  background-color: #D0CCEE;
+}
+
+.HereIsMyProjectTitle img {
+  margin-top: 25px;
+  margin-left: 550px;
+  width: 300px;
+  height: 150px;
+}
+
+#myCompass {
+  padding-bottom: 90px;
+  margin-top: -130px;
+  margin-left: 1000px;
+  height: 100px;
+  width: 100px
+}
+
+#myCamera {
+  z-index: 0;
+  height: 100px;
+  width: 100px;
+  margin-left: 1322px;
+}
+
+#myProfile {
+  margin-top: 20px;
+  height: 280px;
+  width: 280px
+}
+
+.copyRight {
+ text-align: center;
+ color: #7D75BD;
+ font-size: 12px;
+ font-family: "Bungee", sans-serif;
+}
+
+.myContact {
+  color: #D0CCEE;
+  margin-left: 1200px;
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-family: "Bungee", sans-serif;
+}
+
+.myContact:hover {
+  color: #584F9F;
+  cursor: pointer;
+}
+
+.colourName {
+  color: #584F9F;
+}
+
+.mySocials{
+  font-size: 12px;
+  color: #D0CCEE;
+  margin-right: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  margin-bottom: -10px;
+  font-family: "Bungee", sans-serif;
+}
+
+.mySocials a{
+  margin-left: 1300px;
+}
+
+.mySocials:hover {
+  color: #F2F0FC;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition-duration: 9s;
+}
+
+.myProjects div a:hover {
+color: #D0CCEE;
+cursor: pointer;
+}
+
+.myProjects div a {
+text-decoration: none;
+}
+
+.myFlowers {
+  height: 80px;
+  width: 80px;
+  margin-top: 140px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="computer-chip_7065547.png" class="chip"><a href="#sectionID" class="myContact">Contact</a>
+        </nav>
+    </header>
+
+  
+<div class="circle"></div>
+<img src="download.png" id="myId" class="hello">
+<img src="Screenshot 2024-03-11 122128.png" id="myName">
+  <div id="color-changing-div">
+<div class ="bungee-regular">About Me</div>
+  <div class="aboutMe">
+    <div>Hi, I am <a class="colourName">Simon Ingham</a> and I learn how to program in a variety of programming languages! I am <a class="colourName">20 years old</a> and currently studying <a class="colourName">Computer Science</a> :)</div>
+    <div>
+      <img src = "augmented-reality_7065327.png" alt="Profile" id="myProfile">
+    </div>
+  </div>
+</div>
+  <div class="HereIsMyProjectTitle">
+   <div class="bungee-regular">PROJECTS</div>
+  </div>
+  <div class="myProjects">
+    <div><a href="https://simoninghamishere.github.io/BASIC_CALCULATOR/" class="colourName">Calculator</a></div><div><a href="https://simoninghamishere.github.io/DISTANCE_CALCULATOR/" class="colourName">Distance-Calculator</a></div><div><a href="https://simoninghamishere.github.io/TODO_LIST/" class="colourName">TODO LIST</a></div>
+    <div>
+      <img src ="future_7065139.png" alt="compass" id="myCompass">
+    </div>
+  </div>
+  
+  <section id="sectionID">
+    <div>
+      <img src="sakura_6170985.png" class="myFlowers">   
+    </div>
+  <div class="colored-bottom-line">
+    <div class="mySocials">
+      <a href="https://www.instagram.com/king.ingham/"  class="mySocials">Instagram</a>
+    </div>
+    <div class="mySocials">
+     <a href="https://www.linkedin.com/in/simon-ingham-89a9a6209/" class="mySocials">LinkedIn</a>
+    </div>
+    <div class="mySocials">
+      <a href="https://github.com/SimonInghamIsHere" class="mySocials">GitHub</a>
+    </div>
+    <div class="copyRight">Copyright © 2024 Simon Ingham All rights reserved.</div>
+    </div>
+  
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+</body>
+</html>
